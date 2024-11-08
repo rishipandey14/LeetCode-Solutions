@@ -1,0 +1,52 @@
+# If using environment files for configuration
+.env
+*.env
+
+# Virtual environment folder
+venv/
+env/
+ENV/
+.venv/
+.pytest_cache/
+
+# Ignore JetBrains IDEs settings (PyCharm)
+.idea/
+
+# Ignore VSCode settings
+.vscode
+.json
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Byte-compiled files
+*.pyo
+*.pyd
+*.pyc
+__pycache__/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+
+# Ignore Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# If you're using Docker
+docker-compose*.yml
+Dockerfile
+*.dockerfile
+.dockerignore
+
+# If using node for frontend (static assets)
+node_modules/
+npm-debug.log
+
+# Ignore compiled or minified static files
+*.map
+
+# Ignore SQLite database files (if used)
+*.sqlite3
